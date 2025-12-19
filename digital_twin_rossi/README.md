@@ -3,7 +3,7 @@
 ## Guida Rapida
 
 ### 1. Installazione
-Assicurarsi di disporre di un ambiente Python 3.8+ e installare le dipendenze:
+Assicurarsi di disporre di un ambiente Python 3.9+ e installare le dipendenze:
 
 ```bash
 pip install -r requirements.txt
@@ -24,3 +24,4 @@ Il software eseguirà sequenzialmente le politiche configurate, mostrando a vide
 *   **`output/`**: Directory di destinazione per tutti gli artefatti generati dalla simulazione (Report Tabellari, Grafici di Gantt, Summary).
 *   **`simulazione_core.py`**: Il motore di simulazione, definisce le classi `Macchinario`, `OrdineDiLavoro` e le strategie di processo.
 *   **`configurazione.py`**: File centralizzato per la parametrizzazione del modello (tempi, costi, probabilità guasti).
+
